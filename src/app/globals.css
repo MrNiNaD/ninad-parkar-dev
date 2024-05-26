@@ -3,3 +3,21 @@
   padding: 0;
   margin: 0;
 }
+
+:root {
+  --background: #FBF8CC;
+  --toolight: #F7F197;
+  --primary: #F5EE84;
+  --theme1: #474306;
+  --theme2: #03045E;
+}
+
+body {
+  background: var(--background);
+}
+
+.container {
+  width: 90%;
+  max-width: 1350px;
+  margin: 0 auto;
+}
