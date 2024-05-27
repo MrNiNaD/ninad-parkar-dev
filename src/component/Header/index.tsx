@@ -6,7 +6,7 @@ import { Github, LinkedIn, Mail } from "@/assets/icons";
 const Header = () => {
   const links = [
     { text: "Home", route: "#header" },
-    { text: "About", route: "#header" },
+    { text: "About", route: "#about" },
     { text: "Work", route: "#header" },
   ];
 
