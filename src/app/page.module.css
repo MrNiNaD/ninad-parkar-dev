@@ -136,3 +136,14 @@
   font-size: 22px;
   gap: 10px;
 }
+
+.workDetails {
+  display: block;
+}
+
+.workData {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: disc;
+}

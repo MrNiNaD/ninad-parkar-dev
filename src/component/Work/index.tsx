@@ -2,6 +2,19 @@ import React from "react";
 import style from "@/app/page.module.css";
 
 const Work = () => {
+  const workExperience = [
+    {
+      designation: "Web Developer in Axioned",
+      place: "Mumbai, Maharashtra",
+      duration: "Year 2020 – 2021",
+    },
+    {
+      designation: "SDE2 in Eszmeletlen Ho. Co. (also known as MakeStories)",
+      place: "Mumbai, Maharashtra",
+      duration: "Year 2021 – Present",
+    },
+  ];
+
   return (
     <section className={style.aboutSectionStyle} id="about">
       <h3
@@ -9,7 +22,22 @@ const Work = () => {
       >
         work.
       </h3>
-      <p className={`${style.paragraph} ${style.aboutText}`}>Coming soon...</p>
+
+      <ul className={style.workData}>
+        {workExperience.map((work, index) => (
+          <li key={index}>
+            <span className={`${style.paragraph} ${style.workDetails}`}>
+              {work.designation}
+            </span>
+            <span className={`${style.paragraph} ${style.workDetails}`}>
+              {work.place}
+            </span>
+            <span className={`${style.paragraph} ${style.workDetails}`}>
+              {work.duration}
+            </span>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 };
