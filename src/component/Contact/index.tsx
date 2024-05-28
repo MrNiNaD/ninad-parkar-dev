@@ -16,7 +16,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section className={style.aboutSectionStyle} id="contact">
       <h3
         className={`${style.heading2} ${style.designation} ${style.sectionTitle}`}
       >
@@ -31,9 +31,9 @@ const Contact = () => {
           width={400}
         />
         <ul>
-          {socialMediaHandles.map((handles) => {
+          {socialMediaHandles.map((handles, index) => {
             return (
-              <li>
+              <li key={index}>
                 <a target="_blank" href={handles.href}>
                   {handles.text}
                 </a>
