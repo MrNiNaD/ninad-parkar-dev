@@ -3,6 +3,7 @@ import React from "react";
 import style from "@/app/page.module.css";
 import Lottie from "react-lottie";
 import animationData from "@/assets/image/Animation - 1716837528895.json";
+import { socialMediaHandles } from "@/configs";
 
 const Contact = () => {
   const defaultOptions = {
@@ -22,13 +23,24 @@ const Contact = () => {
         contact.
       </h3>
 
-      <div>
+      <div className={style.contactContent}>
         <Lottie
           style={{ margin: "0" }}
           options={defaultOptions}
           height={400}
           width={400}
         />
+        <ul>
+          {socialMediaHandles.map((handles) => {
+            return (
+              <li>
+                <a target="_blank" href={handles.href}>
+                  {handles.text}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </section>
   );

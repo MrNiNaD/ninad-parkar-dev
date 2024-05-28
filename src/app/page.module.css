@@ -123,3 +123,16 @@
 .aboutText {
   margin-bottom: 50px;
 }
+
+.contactContent {
+  display: flex;
+  align-items: center;
+}
+
+.contactContent ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  font-size: 22px;
+  gap: 10px;
+}

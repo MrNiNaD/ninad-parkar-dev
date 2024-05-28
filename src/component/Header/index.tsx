@@ -1,22 +1,13 @@
 import React from "react";
 import style from "@/app/page.module.css";
 import Link from "next/link";
-import { Github, LinkedIn, Mail } from "@/assets/icons";
+import { socialMediaHandles } from "@/configs";
 
 const Header = () => {
   const links = [
     { text: "Home", route: "#header" },
     { text: "About", route: "#about" },
     { text: "Work", route: "#header" },
-  ];
-
-  const socialMediaHandles = [
-    { href: "mailto:email@example.com", component: <Mail /> },
-    {
-      href: "https://www.linkedin.com/in/ninad-parkar-4097881a8/",
-      component: <LinkedIn />,
-    },
-    { href: "https://github.com/MrNiNaD", component: <Github /> },
   ];
 
   return (
