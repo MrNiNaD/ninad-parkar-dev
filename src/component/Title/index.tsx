@@ -6,7 +6,7 @@ import Image from "next/image";
 const Title = () => {
   return (
     <section className={style.myTitle}>
-      <div className={style.myDetails}>
+      <div data-aos="fade-left" className={style.myDetails}>
         <h2 className={style.heading2}>Hello, I'm Ninad,</h2>
         <div className={style.designationContainer}>
           <span className={`${style.heading2} ${style.designation}`}>
@@ -29,7 +29,7 @@ const Title = () => {
           </span>
         </div>
       </div>
-      <div className={style.imageSection}>
+      <div data-aos="fade-left" className={style.imageSection}>
         <Image src={Ninad} alt="Ninad Parkar" />
       </div>
     </section>

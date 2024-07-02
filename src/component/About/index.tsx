@@ -3,7 +3,11 @@ import style from "@/app/page.module.css";
 
 const About = () => {
   return (
-    <section className={style.aboutSectionStyle} id="about">
+    <section
+      data-aos="fade-left"
+      className={style.aboutSectionStyle}
+      id="about"
+    >
       <h3
         className={`${style.heading2} ${style.designation} ${style.sectionTitle}`}
       >

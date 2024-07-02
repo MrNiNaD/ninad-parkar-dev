@@ -16,7 +16,11 @@ const Work = () => {
   ];
 
   return (
-    <section className={style.aboutSectionStyle} id="about">
+    <section
+      data-aos="fade-left"
+      className={style.aboutSectionStyle}
+      id="about"
+    >
       <h3
         className={`${style.heading2} ${style.designation} ${style.sectionTitle}`}
       >
