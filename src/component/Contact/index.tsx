@@ -16,11 +16,7 @@ const Contact = () => {
   };
 
   return (
-    <section
-      data-aos="fade-left"
-      className={style.aboutSectionStyle}
-      id="contact"
-    >
+    <section className={style.aboutSectionStyle} id="contact">
       <h3
         className={`${style.heading2} ${style.designation} ${style.sectionTitle}`}
       >
