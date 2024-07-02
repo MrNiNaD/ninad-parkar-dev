@@ -4,14 +4,14 @@ import style from "@/app/page.module.css";
 const Work = () => {
   const workExperience = [
     {
-      designation: "Web Developer in Axioned",
-      place: "Mumbai, Maharashtra",
-      duration: "Year 2020 – 2021",
-    },
-    {
       designation: "SDE2 in Eszmeletlen Ho. Co. (also known as MakeStories)",
       place: "Mumbai, Maharashtra",
       duration: "Year 2021 – Present",
+    },
+    {
+      designation: "Web Developer in Axioned",
+      place: "Mumbai, Maharashtra",
+      duration: "Year 2020 – 2021",
     },
   ];
 
