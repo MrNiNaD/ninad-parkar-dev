@@ -178,6 +178,37 @@
   background: var(--primary);
 }
 
+.projectListing {
+  list-style-type: disc;
+}
+
+.projectTitle {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.previewImgContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.previewImgContainer img {
+  width: 49%;
+  height: auto;
+}
+
+.projectLinkContainer {
+  margin-top: 10px;
+}
+
+.projectLink {
+  font-size: 15px;
+}
+
+.projectLink a {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 1024px) {
   .imageSection img {
     height: 300px;
