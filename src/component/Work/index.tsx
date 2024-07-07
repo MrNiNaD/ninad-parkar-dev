@@ -18,7 +18,7 @@ const Work = () => {
   return (
     <section
       className={`${style.aboutSectionStyle} ${style.workSectionStyle}`}
-      id="about"
+      id="work"
     >
       <h3
         className={`${style.heading2} ${style.designation} ${style.sectionTitle}`}

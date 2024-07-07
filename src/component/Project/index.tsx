@@ -3,7 +3,7 @@ import style from "@/app/page.module.css";
 
 const Project = () => {
   return (
-    <section className={style.aboutSectionStyle} id="about">
+    <section className={style.aboutSectionStyle} id="project">
       <h3
         className={`${style.heading2} ${style.designation} ${style.sectionTitle}`}
       >

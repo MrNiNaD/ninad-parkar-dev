@@ -5,9 +5,10 @@ import { socialMediaHandles } from "@/configs";
 
 const Header = () => {
   const links = [
-    { text: "Home", route: "#header" },
     { text: "About", route: "#about" },
-    { text: "Work", route: "#header" },
+    { text: "Skills", route: "#skills" },
+    { text: "Project", route: "#project" },
+    { text: "Work", route: "#work" },
   ];
 
   return (

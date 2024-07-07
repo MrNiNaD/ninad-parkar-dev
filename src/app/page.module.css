@@ -166,6 +166,18 @@
   list-style-type: disc;
 }
 
+.skillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skillContainer li {
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--primary);
+}
+
 @media only screen and (max-width: 1024px) {
   .imageSection img {
     height: 300px;
