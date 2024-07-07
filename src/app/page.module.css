@@ -110,6 +110,10 @@
   padding-top: 100px;
 }
 
+.workSectionStyle {
+  margin-bottom: 100px;
+}
+
 .sectionTitle {
   color: var(--primary);
   margin-bottom: 50px;
@@ -127,13 +131,27 @@
 .contactContent {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
 }
 
 .contactContent ul {
   display: flex;
   flex-direction: column;
-  list-style-type: disc;
+  list-style-type: none;
   font-size: 22px;
+  gap: 10px;
+}
+
+.contactContent svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--theme2);
+}
+
+.contactContent a {
+  display: flex;
+  align-items: center;
   gap: 10px;
 }
 

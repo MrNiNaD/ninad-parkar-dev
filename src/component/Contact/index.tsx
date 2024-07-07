@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import style from "@/app/page.module.css";
 import Lottie from "react-lottie";
@@ -24,17 +23,12 @@ const Contact = () => {
       </h3>
 
       <div className={style.contactContent}>
-        <Lottie
-          style={{ margin: "0" }}
-          options={defaultOptions}
-          height={400}
-          width={400}
-        />
         <ul>
           {socialMediaHandles.map((handles, index) => {
             return (
               <li key={index}>
                 <a target="_blank" href={handles.href}>
+                  {handles.component}
                   {handles.text}
                 </a>
               </li>
