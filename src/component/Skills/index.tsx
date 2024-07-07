@@ -24,8 +24,10 @@ const Skills = () => {
       </h3>
 
       <ul className={style.skillContainer}>
-        {skills.map((skill) => (
-          <li className={style.paragraph}>{skill}</li>
+        {skills.map((skill, index) => (
+          <li key={index} className={style.paragraph}>
+            {skill}
+          </li>
         ))}
       </ul>
     </section>
