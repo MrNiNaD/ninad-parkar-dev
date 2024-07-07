@@ -184,3 +184,52 @@
     width: 300px;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .navigation ul {
+    gap: 30px;
+  }
+
+  .socialMediaHandles {
+    gap: 23px;
+  }
+
+  .myDetails {
+    padding-top: 0;
+  }
+
+  .myTitle {
+    flex-direction: column;
+    padding-top: 34px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .designation {
+    font-size: 67px;
+  }
+
+  .basedIn {
+    font-size: 18px;
+  }
+
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imageSection {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}

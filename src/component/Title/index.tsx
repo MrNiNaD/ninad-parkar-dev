@@ -16,7 +16,9 @@ const Title = () => {
             Engineer
           </span>
         </div>
-        <span className={style.heading2}>Based in Mumbai, Maharashtra</span>
+        <span className={`${style.heading2} ${style.basedIn}`}>
+          Based in Mumbai, Maharashtra
+        </span>
         <div className={style.btnContainer}>
           <span className={style.btn}>
             <a
