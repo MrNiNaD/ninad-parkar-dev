@@ -182,6 +182,10 @@
   list-style-type: disc;
 }
 
+.projectListing li + li {
+  margin-top: 20px;
+}
+
 .projectTitle {
   display: block;
   margin-bottom: 10px;

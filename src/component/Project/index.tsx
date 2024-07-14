@@ -3,6 +3,8 @@ import style from "@/app/page.module.css";
 import Image from "next/image";
 import CarDodging2 from "@/assets/image/car-doging-2.gif";
 import CarDodging from "@/assets/image/car-doging.gif";
+import CRUDPic1 from "@/assets/image/crud-video-1.gif";
+import CRUDPic2 from "@/assets/image/crud-video-2.gif";
 
 const Project = () => {
   const config = [
@@ -13,6 +15,14 @@ const Project = () => {
         { src: CarDodging2, alt: "Car Dodging Pic 2" },
       ],
       link: "https://mrninad.github.io/car-game/",
+    },
+    {
+      projectTitle: "Basic Crud App Using React, Redux and Redux Persist",
+      previewImg: [
+        { src: CRUDPic1, alt: "CRUD Pic 1" },
+        { src: CRUDPic2, alt: "CRUD Pic 2" },
+      ],
+      link: "https://enablistar-test.vercel.app/",
     },
   ];
 
