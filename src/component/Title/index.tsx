@@ -23,7 +23,7 @@ const Title = () => {
           <span className={style.btn}>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1V9eAugeYIXV_97PfbzQHMOJB0jLRGzBl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qJDiORrQAunNFaK-rGVmNSbLjZMLOixt/view?pli=1"
             >
               Resume
             </a>
